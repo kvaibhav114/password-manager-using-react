@@ -1,0 +1,16 @@
+.searchbar {
+  position: absolute;
+  right: 0;
+  width: 250px;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 25px;
+}
+#searchbox {
+  height: 16.8px;
+}
+#search {
+  height: 30px;
+  margin: 2px;
+  width: 60px;
+}

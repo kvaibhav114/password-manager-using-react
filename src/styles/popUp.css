@@ -1,0 +1,58 @@
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.popupwrapper {
+  background-color: var(--bg-2);
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  position: relative;
+}
+.form {
+  width: 375px;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 30px;
+}
+#select {
+  margin: 5px 0px 5px;
+  font-size: 15px;
+  width: 80px;
+  padding: 2px 5px 2px;
+}
+
+.label {
+  font-size: large;
+  margin-top: 5px;
+}
+.input {
+  width: 301.8px;
+}
+
+#close {
+  position: relative;
+  right: -270px;
+  width: 45px;
+  height: 25px;
+  background-color: rgb(241, 101, 101);
+}
+
+#submit {
+  font-size: 15px;
+  width: 80px;
+  padding: 5px;
+  margin: 5px 0px 5px;
+}

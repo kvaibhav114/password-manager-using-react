@@ -1,0 +1,28 @@
+.itemswrapper {
+  margin: 90px 100px;
+}
+.elements {
+  margin: 10px;
+  padding: 10px;
+  border: 8px solid rgb(128, 128, 232);
+  border-radius: 6px;
+  background-color: rgb(218, 211, 211);
+}
+#displayItemsContainer {
+  background-color: rgb(205, 198, 198);
+  border-radius: 6px;
+}
+p {
+  margin: 10px 20px 10px;
+  font-weight: 400;
+}
+#buttons {
+  width: 1281px;
+  display: flex;
+  margin-top: 10px;
+  justify-content: flex-end;
+}
+
+#deleteButton {
+  background-color: rgb(241, 101, 101);
+}
