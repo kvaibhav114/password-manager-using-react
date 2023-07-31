@@ -17,10 +17,7 @@ p {
   font-weight: 400;
 }
 #buttons {
-  width: 1281px;
-  display: flex;
   margin-top: 10px;
-  justify-content: flex-end;
 }
 
 #deleteButton {
